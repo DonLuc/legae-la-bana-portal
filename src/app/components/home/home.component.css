@@ -1,0 +1,16 @@
+.placeholder {
+    background-color: #588157;
+    height: 350px;
+    border-radius: 10px;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+}
+
+.mission-img {
+    width: 250px;
+    height: 200px;
+}
+
+.mission-img-div {
+    display: flex;
+    justify-content: center;
+}

@@ -19,6 +19,9 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import {MatCardModule} from '@angular/material/card';
 import { FooterComponent } from './components/footer/footer.component';
 import {MatRippleModule} from '@angular/material/core';
+import {MatExpansionModule} from '@angular/material/expansion';
+import {MatButtonModule} from '@angular/material/button';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -41,7 +44,9 @@ import {MatRippleModule} from '@angular/material/core';
     BrowserAnimationsModule,
     MatSlideToggleModule,
     MatCardModule,
-    MatRippleModule
+    MatRippleModule,
+    MatExpansionModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]

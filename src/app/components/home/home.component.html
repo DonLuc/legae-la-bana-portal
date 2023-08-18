@@ -37,19 +37,76 @@
     <mat-card class="mt-4">
         <mat-card-content>
             <h2 class="sub-title">About the center</h2>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <p class="general-font">Legae La Bana Early Learning Centre (The Centre) is a non-profit organisation based in the rural area of Kgabalatsane (Morolong Section). The organisation was registered in March 2019 in response to shortage of Early Childhood Development (ECD) in the newly established section of Kgabalatsane.</p>
             <div class="mission-img-div">
                 <img src="./../../../assets/images/about/mission_vision.png" class="d-block mission-img" alt="...">
             </div>
             <div class="row mt-4">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h3 class="sub-title">Our mission</h3>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                    <p class="general-font">Legae La Bana Early Learning Centre provide Holistic Care for learners through promoting quality of life. </p>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <h3  class="sub-title">Our vision</h3>
-                    <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
+                    <p class="general-font">:To be a caring organisation and light of hope for the children and community of Kgabalatsane. </p> 
                 </div>
+                <div class="col-md-4">
+                  <h3  class="sub-title">Our values</h3>
+                  <mat-accordion>
+                    <mat-expansion-panel (opened)="panelOpenState = true"
+                                         (closed)="panelOpenState = false">
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Responsibility
+                        </mat-panel-title>
+                      </mat-expansion-panel-header>
+                      <p class="general-font">The Centre is responsible and determined to create and build better future for the children of Kgabalatsane and surrounding areas. Commitment is our huge responsibility.
+                      </p>
+                    </mat-expansion-panel>
+
+                    <mat-expansion-panel (opened)="panelOpenState = true"
+                                         (closed)="panelOpenState = false">
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Excellence
+                        </mat-panel-title>
+                      </mat-expansion-panel-header>
+                      <p class="general-font">We as Legae La Bana E.L.C are committed to a continuous state of excellence throughout everything we do. We are passionate about early learning childhood and service excellence.
+                      </p>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true"
+                                         (closed)="panelOpenState = false">
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Education
+                        </mat-panel-title>
+                      </mat-expansion-panel-header>
+                      <p class="general-font">We believe that early learning promotes positive leaning experiences and provide an opportunity to succeed in life.
+                      </p>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true"
+                                         (closed)="panelOpenState = false">
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Quality
+                        </mat-panel-title>
+                      </mat-expansion-panel-header>
+                      <p class="general-font">Every child deserves excellence in all learning programmes and services to create a strong foundation in their lives and our community. Quality education is what we offer.
+                      </p>
+                    </mat-expansion-panel>
+                    <mat-expansion-panel (opened)="panelOpenState = true"
+                                         (closed)="panelOpenState = false">
+                      <mat-expansion-panel-header>
+                        <mat-panel-title>
+                          Integrity
+                        </mat-panel-title>
+                      </mat-expansion-panel-header>
+                      <p class="general-font">We believe integrity is the foundation of our organisation and it promotes effective relationship and team work in the Centre.
+                      </p>
+                    </mat-expansion-panel>
+
+                  </mat-accordion>
+              </div>
             </div>
         </mat-card-content>
     </mat-card>

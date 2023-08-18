@@ -6,24 +6,27 @@
     <div class="navbar-header">
         <a class="navbar-brand" routerLink="/">Legae La Bana</a>
     </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav me-auto">
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/">Home</a>
+          <a class="nav-link" routerLink="/" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Home</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/center">Our Learning Center</a>
+          <a class="nav-link" routerLink="/center" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Our Learning Center</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/events">Events</a>
+          <a class="nav-link" routerLink="/events" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Events</a>
         </li>
         <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link" routerLink="/contact">Contact Us</a>
+          <a class="nav-link" routerLink="/contact" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">Contact Us</a>
         </li>
       </ul>
+      <div class="d-flex">
+        <button mat-button color="primary">Sign In</button>
+      </div>
     </div>
   </div>
 </nav>

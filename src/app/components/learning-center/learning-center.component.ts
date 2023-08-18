@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./learning-center.component.css']
 })
 export class LearningCenterComponent {
-
+  panelOpenState: boolean = false;
 }

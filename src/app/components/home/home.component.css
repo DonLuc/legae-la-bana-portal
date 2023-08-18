@@ -1,8 +1,9 @@
 .placeholder {
-    background-color: #588157;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(88,129,87,1) 40%, rgba(255,255,255,1) 100%);
     height: 350px;
     border-radius: 10px;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.7);
+    margin-top: 70px;
 }
 
 .mission-img {
@@ -13,4 +14,15 @@
 .mission-img-div {
     display: flex;
     justify-content: center;
+}
+
+.banner {
+    margin-top: 70px;
+    width: 100%; 
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px;
+}
+
+.register-img {
+    margin-top: 40px;
 }
